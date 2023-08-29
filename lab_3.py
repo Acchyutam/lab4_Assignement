@@ -10,7 +10,7 @@ class Employee:
 
 class EmployeeTable:
     def __init__(self, employees):
-        self.employees = employees
+        self.employees = employees 
 
     def search(self, parameter):
         if parameter == 1:
